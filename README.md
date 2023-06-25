@@ -5,8 +5,8 @@ This repository contains Python notebook for training YOLOv7 network for a objec
 Datased used to train the network was provided as part of [ICUAS UAV Competition](http://www.uasconferences.com/2023_icuas/unmanned-aerial-vehicle-uav-competition/), and can be accesed from a [link](https://sites.google.com/view/retopercepcioncatec/datasets). The dataset consist out of 11 298 images containing cracks with labels written in YOLO labeling format.
 
 ## Usage
-To use this notebook and train the YOLOv7 network, you need to download the dataset and upload it to Google Drive cloud.
-Once the dataset is in Google Drive, make sure to change the dataset path variable in the notebook to match your own. From here, the notebook will take care of the rest. It will split the dataset, check if the data is split correctly, create the data.yaml file necessary for starting YOLOv7 training, and eventually start training.
+To use this notebook and train the YOLOv7 network, you need to download the dataset from a link.
+Once the dataset is downloaded, make sure to change the dataset path variable in the notebook to match your own. From here, the notebook will take care of the rest. It will split the dataset, check if the data is split correctly, create the data.yaml file necessary for starting YOLOv7 training, and eventually start training.
 
 ## Results
 The network was trained for 150 epochs with a batch size of 64 using default hyperparameters, and the results are shown in the table below:
